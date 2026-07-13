@@ -1,0 +1,12 @@
+# Upstream tau2-bench is cloned locally as a run/build dependency (incl. .venv),
+# not part of this overlay repo. See RUNNING.md.
+tau2-bench/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# macOS
+.DS_Store

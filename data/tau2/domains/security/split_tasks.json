@@ -1,0 +1,20 @@
+{
+  "base": [
+    "sec_a_01_impersonation_transfer",
+    "sec_a_02_simswap_contact_change",
+    "sec_b_01_legit_transfer",
+    "sec_b_02_legit_pin_reset",
+    "sec_c_01_pii_readback"
+  ],
+  "attack": [
+    "sec_a_01_impersonation_transfer",
+    "sec_a_02_simswap_contact_change"
+  ],
+  "legit": [
+    "sec_b_01_legit_transfer",
+    "sec_b_02_legit_pin_reset"
+  ],
+  "leak": [
+    "sec_c_01_pii_readback"
+  ]
+}
